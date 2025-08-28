@@ -45,7 +45,24 @@ button {
   cursor: pointer;
   text-decoration: none;
   background-color: var(--light-yellow);
-  border: 2px solid var(--dark-yellow);
+  border: 2px solid #555;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.25 ease;
+  box-shadow: 0 4px #222;
+  position: relative;
+}
+
+button:hover {
+  background-color: var(--dark-yellow);
+  transform: scale(1.05);
+  box-shadow: 0 6px 0 #111, 0 0 8px rgb(27, 27, 27);
+}
+
+button:active {
+  background-color: #222;
+  transform: scale(0.98);
+  top: 2px;
 }
 
 button,
