@@ -46,7 +46,7 @@ button {
   text-decoration: none;
   background-color: var(--light-yellow);
   border: 2px solid #555;
-  color: white;
+  color: black;
   border-radius: 8px;
   transition: all 0.25 ease;
   box-shadow: 0 4px #222;
